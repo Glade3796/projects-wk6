@@ -1,8 +1,8 @@
-export default function Counter(props) {
+export default function Counter({ counter, counter1 }) {
   return (
     <div>
-      <h2>Counter0: {props.counter} </h2>
-      <h2>Counter1: {props.counter1} </h2>
+      <h2>Counter0: {counter} </h2>
+      <h2>Counter1: {counter1} </h2>
     </div>
   );
 }
